@@ -1,0 +1,10 @@
+Parts:
+  1 @ Arduino Pro Micro or similar
+      (Code may need some adjustment if using a different board.
+       Some boards cannot natively act as a keyboard.)
+  1 @ ADXL335 Accelerometer breakout board or similar
+      (Code is written for the ADXL335, but another two or three axis
+       accelerometer should work.)
+  7 @ Tactile switches
+  1 @ Jumper
+  1 @ Micro USB cable
