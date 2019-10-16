@@ -1185,12 +1185,12 @@ Keyboard.print('o');
       switch (prefixChord){
         case 0:
           prefixChord = 0;
-          Keyboard.print("975000130");
-          Serial1.print("975000130");
+          Keyboard.print(usernum);
+          Serial1.print(usernum);
           return 0;
         case 1:
-          Keyboard.print("MATTHEW504");
-          Serial1.print("MATTHEW504");
+          Keyboard.print(pass_num);
+          Serial1.print(pass_num);
           return 0;
         case 2:
           prefixChord = 0;
